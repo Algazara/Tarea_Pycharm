@@ -1,0 +1,17 @@
+Index: Actividad 1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Actividad 1.py b/Actividad 1.py
+--- a/Actividad 1.py	
++++ b/Actividad 1.py	(date 1673983404117)
+@@ -5,7 +5,7 @@
+     lista_asignaturas=["Informática", "Francés", "Filosofía", "Ética", "Álgebra"]
+     for i in range(len(lista_asignaturas)):
+         asignatura=lista_asignaturas[i]
+-    print("Yo estudio", lista_asignaturas)
++        print("Yo estudio", asignatura)
+ 
+ actividad1()
+ 
